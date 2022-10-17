@@ -87,3 +87,26 @@ programming languages without affecting the API design. You can also change the 
 without affecting the communication.
 
 # Python APIs
+
+We can use Python to make APIs because Python supports working with XML and JSON, which are the building blocks for APIs
+
+# RESTful API request
+
+1. URI (Unique Resource Identifier)
+2. Method
+    - GET
+        - Used to access resources that are located at the specified URL on the server.
+    - POST
+        - Used to send data to the server.
+    - PUT
+        - Used to update existing resources on the server.
+    - DELETE
+        - Used to request to remove the resource.
+3. HTTP Header 
+   - Request headers are the metadata exchanged between the client and server.
+      - Data
+        - Must contain one of the http methods (Get,Post, Put etc.)
+      - Parameters
+        - Path to specify URL details
+        - Query parameters to request additional data about the resource
+        - Cookie parameters to identify users
